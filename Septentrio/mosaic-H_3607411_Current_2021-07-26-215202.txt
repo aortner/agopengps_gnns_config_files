@@ -1,0 +1,8 @@
+setNMEAOutput, Stream1, USB1
+setNMEAOutput, Stream2, COM1
+setNMEAOutput, Stream1, , GGA+HDT+VTG+AVR
+setNMEAOutput, Stream2, , GGA+HDT+VTG+AVR
+setNMEAOutput, Stream1, , , msec100
+setNMEAOutput, Stream2, , , msec100
+setGNSSAttitude, , Float+Fixed
+setAttitudeOffset, 90.000
